@@ -7,7 +7,7 @@ To vendor golang package into your release, run:
 ```
 $ git clone https://github.com/bosh-packages/golang-release
 $ cd ~/workspace/your-release
-$ bosh vendor-package golang-1.8-linux ~/workspace/golang-release
+$ bosh vendor-package golang-1.9-linux ~/workspace/golang-release
 ```
 
 Included packages:

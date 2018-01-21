@@ -43,7 +43,6 @@ pushd $PWD
 popd
 
 echo "-----> `date`: Run test errand"
-bosh -n -d test run-errand golang-1.8-${JOB_NAME}
 bosh -n -d test run-errand golang-1.9-${JOB_NAME}
 
 echo "-----> `date`: Delete deployments"

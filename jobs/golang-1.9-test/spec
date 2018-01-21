@@ -5,8 +5,7 @@ templates:
   run: bin/run
 
 packages:
-- golang-1.9-linux
-- golang-1.9-linux-test
-- golang-1.9-darwin-test
+- golang-1.9-armv7-linux
+- golang-1.9-armv7-linux-test
 
 properties: {}
