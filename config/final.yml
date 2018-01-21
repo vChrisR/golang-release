@@ -3,4 +3,4 @@ blobstore:
   provider: s3
   options:
     bucket_name: bosh-packages-armv7
-    region: eu-west-1
+    region: eu-central-1
