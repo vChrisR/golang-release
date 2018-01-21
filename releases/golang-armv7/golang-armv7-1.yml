@@ -1,0 +1,25 @@
+name: golang-armv7
+version: "1"
+commit_hash: 8225f57
+uncommitted_changes: false
+jobs:
+- name: golang-1.9-test
+  version: 8ccc4281ac6234d94fab1860f13a175acf857e65
+  fingerprint: 8ccc4281ac6234d94fab1860f13a175acf857e65
+  sha1: 20a036ca16856a9d043e83790985353f019f99d6
+packages:
+- name: golang-1.9-armv7-linux
+  version: 3258f2ffea1cd10301666675756caa6370dd6ada
+  fingerprint: 3258f2ffea1cd10301666675756caa6370dd6ada
+  sha1: 26660edcced235fb919dfb5f4d2ac4da99b0ca64
+  dependencies: []
+- name: golang-1.9-armv7-linux-test
+  version: a036bc4e9c4076000d2abc1c6a765aa2a0427e18
+  fingerprint: a036bc4e9c4076000d2abc1c6a765aa2a0427e18
+  sha1: 0bd5dcdf623ef2772b7b7049a86b9fbed5525090
+  dependencies:
+  - golang-1.9-armv7-linux
+license:
+  version: a1754e8a49c1b7e6cbfa6a7e6ad50ad8454bb897
+  fingerprint: a1754e8a49c1b7e6cbfa6a7e6ad50ad8454bb897
+  sha1: 141da8847adf61057e85f0634a76733a0305377a
